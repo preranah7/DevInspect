@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', function() {
         versionDisplay.textContent = `v${manifest.version}`;
       }
 
-      // Set footer links (update these URLs to your actual repo)
+      // Set footer links
       if (docsLink) {
-        docsLink.href = 'https://github.com/yourusername/devinspect#readme';
+        docsLink.href = 'https://github.com/preranah7/devinspect#readme';
       }
       if (issueLink) {
-        issueLink.href = 'https://github.com/yourusername/devinspect/issues';
+        issueLink.href = 'https://github.com/preranah7/devinspect/issues';
       }
 
       // Check initial status
