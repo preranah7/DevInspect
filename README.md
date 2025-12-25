@@ -43,6 +43,27 @@
 
 ---
 
+## 📸 Screenshots
+
+### Extension popup overview
+![DevInspect popup overview](screenshots/popup-ui.jpg)
+
+### Web Vitals & performance on YouTube
+![DevInspect Web Vitals on YouTube](screenshots/web-vitals-youtube.jpg)
+
+### Performance insights & warnings
+![DevInspect performance warnings](screenshots/performance-warnings.jpg)
+
+### Web Vitals on Wikipedia
+![DevInspect Web Vitals on Wikipedia](screenshots/web-vitals-wiki.jpg)
+
+### CSS selector extraction & accessibility checks
+![DevInspect CSS selector and accessibility](screenshots/css-selector-accessibility.jpg)
+
+### Box model & typography inspector
+![DevInspect box model and typography](screenshots/box-model.jpg)
+
+
 ## 🚀 Quick Start
 
 ### Installation
@@ -116,44 +137,54 @@
 ```
 devinspect/
 ├── src/
-│   ├── content/
-│   │   ├── index.ts            # Content script entry point
-│   │   ├── modules/
-│   │   │   ├── accessibility.ts    # WCAG compliance checks
-│   │   │   ├── inspector.ts        # Element inspection logic
-│   │   │   ├── layout.ts           # Layout detection (Flexbox/Grid)
-│   │   │   ├── panel.ts            # Inspector panel UI
-│   │   │   ├── performance.ts      # Web Vitals & metrics
-│   │   │   ├── responsive.ts       # Responsive design helpers
-│   │   │   ├── selectors.ts        # CSS selector extraction
-│   │   │   ├── state.ts            # State management & caching
-│   │   │   ├── theme.ts            # Theme (dark/light) management
-│   │   │   ├── utils.ts            # Utility functions
-│   │   │   └── index.ts            # Module exports
-│   │   └── types/
-│   │       └── index.ts            # TypeScript interfaces
-│   ├── popup/
-│   │   ├── popup.html          # Popup UI markup
-│   │   ├── popup.css           # Popup styles
-│   │   └── popup.js            # Popup logic
-│   ├── styles/
-│   │   └── content.css         # Content script styles
-│   ├── manifest.json           # Chrome extension manifest
-│   └── index.ts                # Main entry point
-├── public/icons/
-│   ├── icon16.png              # 16x16 extension icon
-│   ├── icon48.png              # 48x48 extension icon
-│   ├── icon128.png             # 128x128 extension icon
-│   ├── moon.svg                # Dark mode icon
-│   └── sun.svg                 # Light mode icon
-├── dist/                        # Production build (auto-generated)
-├── node_modules/               # Dependencies
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
+│ ├── content/
+│ │ ├── index.ts                                       # Content script entry
+│ │ ├── modules/                                       # Core inspection logic
+│ │ │ ├── accessibility.ts                             # WCAG/accessibility checks
+│ │ │ ├── inspector.ts                                 # Element inspection
+│ │ │ ├── layout.ts                                    # Flexbox/Grid detection
+│ │ │ ├── panel.ts                                     # Inspector panel UI
+│ │ │ ├── performance.ts                               # Web Vitals & metrics
+│ │ │ ├── responsive.ts                                # Responsive helpers
+│ │ │ ├── selectors.ts                                 # CSS selector extractor
+│ │ │ ├── state.ts                                     # State & caching
+│ │ │ ├── theme.ts                                     # Dark/Light theme
+│ │ │ ├── utils.ts                                     # Shared utilities
+│ │ │ └── index.ts                                     # Module barrel file
+│ │ └── types/
+│ │ └── index.ts                                       # TypeScript types
+│ ├── popup/
+│ │ ├── popup.html                                     # Popup markup
+│ │ ├── popup.css                                      # Popup styles
+│ │ └── popup.js                                       # Popup logic
+│ ├── styles/
+│ │ └── content.css                                    # In-page overlay styles
+│ ├── manifest.json                                    # Chrome extension manifest
+│ └── index.ts                                         # Main entry point
+├── public/
+│ └── icons/                                           # Extension icons & theme glyphs
+│ ├── icon16.png
+│ ├── icon48.png
+│ ├── icon128.png
+│ ├── moon.svg
+│ └── sun.svg
+├── screenshots/                                       # README & store screenshots
+│ ├── popup-ui.png.jpg
+│ ├── web-vitals-youtube.png.jpg
+│ ├── performance-warnings.png.jpg
+│ ├── web-vitals-wiki.png.jpg
+│ ├── css-selector-accessibility.png.jpg
+│ └── box-model.png.jpg
+├── dist/                                              # Production build (generated)
+├── node_modules/                                      # Dependencies
+├── .gitignore                                         # Git ignore rules
+├── LICENSE                                            # MIT license
+├── PRIVACY.md                                         # Privacy policy
+├── package.json                                       # Scripts & dependencies
+├── package-lock.json                                  # Locked dependency tree
+├── tsconfig.json                                      # TypeScript config
+├── vite.config.ts                                     # Vite build config
+└── README.md                                          # Project documentation
 ```
 
 ---
