@@ -91,7 +91,7 @@ DevInspect is **open source** on GitHub. You can:
 - Audit the code yourself
 - Run your own version
 
-**Repository**: [github.com/yourusername/devinspect](https://github.com/yourusername/devinspect)
+**Repository**: [github.com/preranah7/devinspect](https://github.com/preranah7/devinspect)
 
 ---
 
@@ -102,7 +102,7 @@ If you have privacy concerns or questions:
 - 🔍 Review the source code
 - ❓ Check the README for more information
 
-**GitHub Issues**: [Report Issue](https://github.com/yourusername/devinspect/issues)
+**GitHub Issues**: [Report Issue](https://github.com/preranah7/devinspect/issues)
 
 ---
 
