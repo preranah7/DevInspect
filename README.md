@@ -290,19 +290,12 @@ For detailed privacy information, see [PRIVACY.md](./PRIVACY.md).
 ## 📝 Features Roadmap
 
 
-### v1.1 (Planned)
+### v1.1 (Future)
 - [ ] Integration with DevTools
 - [ ] Real-time collaboration mode
 - [ ] Advanced filtering options
 - [ ] Export reports (HTML/PDF)
 - [ ] Dark mode refinements
-
-### v2.0 (Future)
-- [ ] Mobile responsive testing tools
-- [ ] Advanced SEO audit module
-- [ ] Component library extraction
-- [ ] Design system enforcement
-- [ ] Team collaboration features
 
 ---
 
