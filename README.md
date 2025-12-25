@@ -46,22 +46,23 @@
 ## 📸 Screenshots
 
 ### Extension popup overview
-![DevInspect popup overview](screenshots/popup-ui.jpg)
+<img src="screenshots/popup-ui.jpg" width="600" alt="DevInspect popup overview">
 
 ### Web Vitals & performance on YouTube
-![DevInspect Web Vitals on YouTube](screenshots/web-vitals-youtube.jpg)
+<img src="screenshots/web-vitals-youtube.jpg" width="700" alt="DevInspect Web Vitals on YouTube">
 
 ### Performance insights & warnings
-![DevInspect performance warnings](screenshots/performance-warnings.jpg)
+<img src="screenshots/performance-warnings.jpg" width="700" alt="DevInspect performance warnings">
 
 ### Web Vitals on Wikipedia
-![DevInspect Web Vitals on Wikipedia](screenshots/web-vitals-wiki.jpg)
+<img src="screenshots/web-vitals-wiki.jpg" width="700" alt="DevInspect Web Vitals on Wikipedia">
 
 ### CSS selector extraction & accessibility checks
-![DevInspect CSS selector and accessibility](screenshots/css-selector-accessibility.jpg)
+<img src="screenshots/css-selector-accessibility.jpg" width="700" alt="DevInspect CSS selector and accessibility">
 
 ### Box model & typography inspector
-![DevInspect box model and typography](screenshots/box-model.jpg)
+<img src="screenshots/box-model.jpg" width="700" alt="DevInspect box model and typography">
+
 
 
 ## 🚀 Quick Start
