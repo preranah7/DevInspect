@@ -49,19 +49,19 @@
 <img src="screenshots/popup-ui.jpg" width="300" alt="DevInspect popup overview">
 
 ### Web Vitals & performance on YouTube
-<img src="screenshots/web-vitals-youtube.jpg" width="400" alt="DevInspect Web Vitals on YouTube">
+<img src="screenshots/web-vitals-youtube.jpg" width="500" alt="DevInspect Web Vitals on YouTube">
 
 ### Performance insights & warnings
-<img src="screenshots/performance-warnings.jpg" width="400" alt="DevInspect performance warnings">
+<img src="screenshots/performance-warnings.jpg" width="500" alt="DevInspect performance warnings">
 
 ### Web Vitals on Wikipedia
-<img src="screenshots/web-vitals-wiki.jpg" width="400" alt="DevInspect Web Vitals on Wikipedia">
+<img src="screenshots/web-vitals-wiki.jpg" width="500" alt="DevInspect Web Vitals on Wikipedia">
 
 ### CSS selector extraction & accessibility checks
-<img src="screenshots/css-selector-accessibility.jpg" width="400" alt="DevInspect CSS selector and accessibility">
+<img src="screenshots/css-selector-accessibility.jpg" width="500" alt="DevInspect CSS selector and accessibility">
 
 ### Box model & typography inspector
-<img src="screenshots/box-model.jpg" width="400" alt="DevInspect box model and typography">
+<img src="screenshots/box-model.jpg" width="500" alt="DevInspect box model and typography">
 
 
 
