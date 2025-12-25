@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DevInspect - Advanced element inspector and CSS selector extractor for developers">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'">
+  <title>DevInspect</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+      <span class="brand">DevInspect</span>
+    </div>
+    <div class="version" id="versionDisplay">v1.0.0</div>
+  </div>
+
+  <main class="content">
+    <div class="status-section">
+      <div class="status-indicator" role="status" aria-live="polite">
+        <span class="status-dot" id="statusDot" aria-hidden="true"></span>
+        <span class="status-text" id="statusText">Ready</span>
+      </div>
+    </div>
+
+    <div class="main-action">
+      <button class="primary-btn" id="toggleBtn" aria-label="Toggle element inspector">
+        <span class="btn-text">Start Inspecting</span>
+      </button>
+      <div class="shortcut-hint" aria-label="Keyboard shortcut: Ctrl+Shift+I">
+        <span class="key">Ctrl</span>
+        <span class="plus">+</span>
+        <span class="key">Shift</span>
+        <span class="plus">+</span>
+        <span class="key">I</span>
+      </div>
+    </div>
+
+    <div class="divider" role="separator"></div>
+
+    <div class="features-list">
+      <div class="feature-item">
+        <div class="feature-label">Element Inspector</div>
+        <div class="feature-desc">Hover to inspect any element</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-label">CSS Selectors</div>
+        <div class="feature-desc">Optimized selector generation</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-label">Web Vitals</div>
+        <div class="feature-desc">Real-time performance metrics</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-label">Accessibility</div>
+        <div class="feature-desc">ARIA and semantic analysis</div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <a href="#" id="docsLink" target="_blank" rel="noopener noreferrer" class="footer-link">Documentation</a>
+    <span class="separator" aria-hidden="true">|</span>
+    <a href="#" id="issueLink" target="_blank" rel="noopener noreferrer" class="footer-link">Report Issue</a>
+  </footer>
+
+  <script type="module" src="/src/popup/popup.js"></script>
+</body>
+</html>

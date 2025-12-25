@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "DevInspect",
+  "version": "1.0.0",
+  "description": "Frontend inspection tool with performance metrics, accessibility checks, and CSS selector extraction",
+  
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "DevInspect - Element Inspector"
+  },
+  
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/index.ts"],
+      "run_at": "document_idle"
+    }
+  ],
+  
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/*.svg",
+        "icons/*.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
