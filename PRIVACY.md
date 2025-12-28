@@ -21,11 +21,11 @@ DevInspect is committed to protecting your privacy. This extension is designed t
 ### How Your Data Is Processed
 All analysis and inspection happens **exclusively in your browser**:
 
-- **Element Inspection** — Analyzes DOM elements on the current page only
-- **CSS Analysis** — Extracts selectors and styles from the current page only
-- **Accessibility Checks** — Evaluates WCAG compliance on the current page only
-- **Performance Metrics** — Calculates Web Vitals for the current page only
-- **Layout Detection** — Identifies Flexbox/Grid layouts on the current page only
+- **Element Inspection** - Analyzes DOM elements on the current page only
+- **CSS Analysis** - Extracts selectors and styles from the current page only
+- **Accessibility Checks** - Evaluates WCAG compliance on the current page only
+- **Performance Metrics** - Calculates Web Vitals for the current page only
+- **Layout Detection** - Identifies Flexbox/Grid layouts on the current page only
 
 ### Storage
 - All data is stored **locally in your browser**
@@ -125,7 +125,7 @@ DevInspect complies with:
 
 <div align="center">
 
-**Your privacy is our priority. DevInspect respects your data.**
+**DevInspect respects your data.**
 
 Built for developers who care about privacy. 🔒
 
