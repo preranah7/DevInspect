@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "DevInspect",
+  "name": "DevInspect - Inspector & Accessibility Checker",
   "version": "1.0.0",
-  "description": "Frontend inspection tool with performance metrics, accessibility checks, and CSS selector extraction",
+  "description": "Frontend inspection tool with performance metrics, accessibility checks, and CSS selector extraction.Debug frontend code instantly with comprehensive forensic analysis tools in real time.",
   
   "permissions": [
     "activeTab",
