@@ -15,31 +15,31 @@
 ## ✨ Features
 
 ### 🎯 Element Inspection
-- **Interactive hover inspection** — Move your cursor to inspect any element
-- **Detailed element info** — View DOM hierarchy, computed styles, and box model
-- **CSS selector extraction** — Get unique selectors (ID, class, XPath)
-- **Layout detection** — Automatically identify Flexbox & Grid layouts with visual guides
-- **Visual highlighting** — Clean, non-intrusive overlay on inspected elements
+- **Interactive hover inspection** - Move your cursor to inspect any element
+- **Detailed element info** - View DOM hierarchy, computed styles, and box model
+- **CSS selector extraction** - Get unique selectors (ID, class, XPath)
+- **Layout detection** - Automatically identify Flexbox & Grid layouts with visual guides
+- **Visual highlighting** - Clean, non-intrusive overlay on inspected elements
 
 ### 🌐 Web Performance
-- **Core Web Vitals tracking** — LCP, CLS, FID, INP, TTFB in real-time
-- **Performance metrics** — Total nodes, images, scripts, stylesheets analysis
-- **Smart warnings** — Actionable recommendations for performance issues
-- **Per-page caching** — 5-second cache for optimal performance
+- **Core Web Vitals tracking** - LCP, CLS, FID, INP, TTFB in real-time
+- **Performance metrics** - Total nodes, images, scripts, stylesheets analysis
+- **Smart warnings** - Actionable recommendations for performance issues
+- **Per-page caching** - 5-second cache for optimal performance
 
 ### ♿ Accessibility Audits
-- **WCAG contrast ratio checker** — Verify text/background color compliance
-- **Touch target validation** — Check minimum 44x44px tap target sizes
-- **Font size verification** — Ensure minimum 12px readable text
-- **ARIA label detection** — Identify missing accessibility attributes
-- **Accessibility warnings** — Real-time feedback on accessibility issues
+- **WCAG contrast ratio checker** - Verify text/background color compliance
+- **Touch target validation** - Check minimum 44x44px tap target sizes
+- **Font size verification** - Ensure minimum 12px readable text
+- **ARIA label detection** - Identify missing accessibility attributes
+- **Accessibility warnings** - Real-time feedback on accessibility issues
 
 ### 🎨 User Experience
-- **Dark/Light theme** — Automatic OS preference detection or manual toggle
-- **Responsive design** — Works seamlessly on all screen sizes
-- **Onboarding flow** — First-time user welcome & feature guide
-- **Draggable panels** — Customizable inspector panel positioning
-- **ESC key support** — Quick panel dismissal
+- **Dark/Light theme** - Automatic OS preference detection or manual toggle
+- **Responsive design** - Works seamlessly on all screen sizes
+- **Onboarding flow** - First-time user welcome & feature guide
+- **Draggable panels** - Customizable inspector panel positioning
+- **ESC key support** - Quick panel dismissal
 
 ---
 
@@ -102,18 +102,18 @@
 ## 📖 Usage
 
 ### Getting Started
-1. **Open DevInspect** — Press the extension icon in your toolbar
-2. **Activate Inspector** — Click "Activate Inspector" button or press Ctrl+Shift+I
-3. **Hover & Inspect** — Move your cursor over any element to inspect
-4. **View Details** — Check layout, accessibility, performance, and CSS info
-5. **Copy Selectors** — Click selector buttons to copy to clipboard
+1. **Open DevInspect** - Press the extension icon in your toolbar
+2. **Activate Inspector** - Click "Activate Inspector" button or press Ctrl+Shift+I
+3. **Hover & Inspect** - Move your cursor over any element to inspect
+4. **View Details** - Check layout, accessibility, performance, and CSS info
+5. **Copy Selectors** - Click selector buttons to copy to clipboard
 
 ### Inspector Panel
-- **Layout Section** — Visual Flexbox/Grid guides with gap & alignment info
-- **CSS Selectors** — Copy ID, class-based, XPath, or unique selectors
-- **Web Vitals** — Page-level performance metrics with severity indicators
-- **Accessibility** — WCAG compliance scores and specific issues
-- **Warnings** — Actionable recommendations for improvement
+- **Layout Section** - Visual Flexbox/Grid guides with gap & alignment info
+- **CSS Selectors** - Copy ID, class-based, XPath, or unique selectors
+- **Web Vitals** - Page-level performance metrics with severity indicators
+- **Accessibility** - WCAG compliance scores and specific issues
+- **Warnings** - Actionable recommendations for improvement
 
 ### Keyboard Shortcuts
 | Shortcut | Action |
@@ -229,10 +229,10 @@ npm run preview
 ```
 
 ### Code Quality
-- **TypeScript** — Strict mode enabled for type safety
-- **Modular architecture** — Separated concerns (state, UI, logic, styles)
-- **Error handling** — Try/catch blocks with console logging
-- **Performance optimized** — Debouncing, caching, efficient DOM queries
+- **TypeScript** - Strict mode enabled for type safety
+- **Modular architecture** - Separated concerns (state, UI, logic, styles)
+- **Error handling** - Try/catch blocks with console logging
+- **Performance optimized** - Debouncing, caching, efficient DOM queries
 
 ---
 
@@ -305,15 +305,15 @@ powershell Compress-Archive -Path * -DestinationPath ../devinspect-v1.0.0.zip
 ## 🔐 Privacy & Security
 
 ### Data Handling
-- **No external calls** — All analysis happens locally in your browser
-- **No data collection** — Nothing sent to servers or third parties
-- **No cookies** — Extension doesn't use cookies or tracking
-- **Local storage only** — Preferences stored in browser memory
+- **No external calls** - All analysis happens locally in your browser
+- **No data collection** - Nothing sent to servers or third parties
+- **No cookies** - Extension doesn't use cookies or tracking
+- **Local storage only** - Preferences stored in browser memory
 
 ### Permissions
-- `activeTab` — Required to inspect current page elements
-- `scripting` — Allows content script injection for element inspection
-- `<all_urls>` — Works on any webpage you visit
+- `activeTab` - Required to inspect current page elements
+- `scripting` - Allows content script injection for element inspection
+- `<all_urls>` - Works on any webpage you visit
 
 For detailed privacy information, see [PRIVACY.md](./PRIVACY.md).
 
@@ -333,7 +333,7 @@ For detailed privacy information, see [PRIVACY.md](./PRIVACY.md).
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how to help:
+Here's how to help:
 
 ### Report Issues
 Found a bug? [Open an issue](https://github.com/preranah7/devinspect/issues)
@@ -363,17 +363,17 @@ Include:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see [LICENSE](./LICENSE) file for details.
+This project is licensed under the **MIT License** - see [LICENSE](./LICENSE) file for details.
 
 ### Commercial Use
-✅ Allowed — Feel free to use this in commercial projects or redistribute
-⚠️ Attribution — Not required, but appreciated
+✅ Allowed - Feel free to use this in commercial projects or redistribute
+⚠️ Attribution - Not required, but appreciated
 
 ---
 
 ## 👨‍💻 Author
 
-**DevInspect** — Built with ❤️ for frontend developers.
+**DevInspect** - Built with ❤️ for frontend developers,QA engineers.
 
 - **Creator**: [Prerana Hippargi](https://github.com/preranah7)
 - **Repository**: [github.com/preranah7/devinspect](https://github.com/preranah7/devinspect)
