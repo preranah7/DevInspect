@@ -31,7 +31,6 @@ All analysis and inspection happens **exclusively in your browser**:
 - All data is stored **locally in your browser**
 - No data is sent to any server or external service
 - Data is cleared when the extension is reloaded or uninstalled
-- The `storage` permission is used only for saving your theme preference (dark/light mode)
 
 ---
 
@@ -41,12 +40,6 @@ All analysis and inspection happens **exclusively in your browser**:
 - **Purpose**: Required to access the currently active webpage you're viewing
 - **Usage**: Allows DevInspect to inspect elements on the page you're on
 - **Scope**: Only the current tab, only when you activate the inspector
-
-### `storage`
-- **Purpose**: Stores your extension preferences
-- **Usage**: Remembers if you prefer dark or light theme
-- **Data**: Only your theme preference (no personal information)
-- **Scope**: Local browser storage only
 
 ---
 
