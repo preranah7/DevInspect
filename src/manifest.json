@@ -5,8 +5,7 @@
   "description": "Frontend inspection tool with performance metrics, accessibility checks, and CSS selector extraction in real time.",
   
   "permissions": [
-    "activeTab",
-    "storage"
+    "activeTab"
   ],
   
   "action": {
