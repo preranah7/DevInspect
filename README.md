@@ -70,7 +70,7 @@
 ### Installation
 
 #### Option 1: Chrome Web Store 
-1. Visit [DevInspect on Chrome Web Store]([https://chrome.google.com/webstore](https://chromewebstore.google.com/detail/devinspect-inspector-acce/alccjmcgbhfllcbmhkialgpoidbnbbjl)
+1.Install DevInspect directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/devinspect-inspector-acce/alccjmcgbhfllcbmhkialgpoidbnbbjl)
 2. Click **Add to Chrome**
 3. Confirm permissions
 
